@@ -21,7 +21,7 @@ def convert(name):
 
 path = os.getcwd()
 
-f = open("yol.txt", "r")
+f = open("path.txt", "r")
 path = f.readline()
 path = path.replace("\n", "")
 f.close()
